@@ -19,4 +19,3 @@ Adding codes like
 17.git show --pretty="" --name-only (commit id) --> it will give only the file name of that particular commit id
 18.touch (file name)
 19.git reset test.c --> it will move the file from staging area to working area
-20.
