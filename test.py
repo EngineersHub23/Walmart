@@ -39,4 +39,16 @@
 
  * git branch -d development --> deletes that branch
 
- * 
+ * git merge development --> It will merge the files from development branch to master
+ 
+ * git checkout -b stage --> we can create stage branch and move into that branch
+ 
+ * git push wm stage master development --> to push any changes in the branches to remote repo
+ 
+ * git push wm --all --> It also does the same as above command 
+ 
+ * git branch -r --> to see the remote repo branches
+ 
+ * git branch -a --> to see branches in both remote and local repository
+ 
+ * git push wm :stage --> It will delete the branch in remote repository
