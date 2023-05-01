@@ -39,4 +39,12 @@
 
  * git branch -d development --> deletes that branch
 
- * 
+ * git stash save "test.py" --> It will create a back up of the incompletd work
+
+ * git stash apply test.py --> to start the incomplete work 
+
+ * git stash list 
+
+ * git stash drop --> to delete the backup off stash
+
+ 
