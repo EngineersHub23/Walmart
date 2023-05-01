@@ -1,1 +1,3 @@
-this file contains cpp code
+this file contains cpp code..
+
+standard input output 
