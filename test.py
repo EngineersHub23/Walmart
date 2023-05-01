@@ -47,4 +47,25 @@
 
  * git stash drop --> to delete the backup off stash
 
+ * git merge development --> It will merge the files from development branch to master
  
+ * git checkout -b stage --> we can create stage branch and move into that branch
+ 
+ * git push wm stage master development --> to push any changes in the branches to remote repo
+ 
+ * git push wm --all --> It also does the same as above command 
+ 
+ * git branch -r --> to see the remote repo branches
+ 
+ * git branch -a --> to see branches in both remote and local repository
+ 
+ * git push wm :stage --> It will delete the branch in remote repository
+
+  * git stash save "test.py" --> It will create a back up of the incompletd work
+
+ * git stash apply test.py --> to start the incomplete work
+
+ * git stash list
+
+ * git stash drop --> to delete the backup off stash
+
