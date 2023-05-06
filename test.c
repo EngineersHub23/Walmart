@@ -7,3 +7,8 @@ now 2 files are modified
 git stash apply test.py
 
 git stash apply --> all the backup files are
+
+git fetch 
+
+git pull
+
