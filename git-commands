@@ -1,0 +1,17 @@
+> git config --global --user.email
+> git config --global --user.name
+> cd Desktop
+> mkdir hub4engineers
+> git init
+> vi hub4engineers
+> :wq
+> git status
+> git add hub4engineers
+> git commit -m "moving file from working area to staging area"
+> git commit --amend -m "to change commit msg"
+> git commit -a -m "msg" -->to move the modified file from working area to staging area
+> git log
+> git git show <commit id>
+> git show --pretty="" --name-only <commit id>
+> git remote -v --> to check local repo is integrated with remote repo
+> git remote add <remote repo url>
